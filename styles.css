@@ -55,9 +55,9 @@ main {
 }
 
 .author-image {
-  width: 75px; /* Adjusted size for the author's image */
-  height: 75px; /* Set height to keep the image square */
-  border-radius: 10%; /* Less oval than before, making it slightly rounded */
+  width: 75px;
+  height: 75px;
+  border-radius: 10%;
 }
 
 .post-info {
@@ -76,18 +76,17 @@ h3 {
 }
 
 .title-heading {
-  display: flex; /* Enable flexbox for horizontal alignment */
-  align-items: center; /* Center items vertically */
-  justify-content: center; /* Center items horizontally */
-  color: #fff; /* Change this to your preferred color */
-  font-size: 2em; /* Adjust the font size as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2em;
   margin: 20px 0;
 }
 
 .books {
-  width: 50px; /* Adjust width of the image */
-  height: auto; /* Maintain aspect ratio */
-  /* margin-left: 10px; */
+  width: 50px;
+  height: auto;
   margin-right: 10px;
   vertical-align: middle;
 }
