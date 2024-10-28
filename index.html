@@ -2,184 +2,119 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Continent of Africa</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>FireBuy Pricing</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styless.css" />
   </head>
   <body>
+    <!-- Header Section -->
     <header>
-      <h1 class="title-heading">
-        <img
-          class="books"
-          src="/starter/stack-of-books.png"
-          alt="Stack of Books"
-        />
-        Africa Gazette
-      </h1>
+      <div class="logo-container">
+        <img src="images/firebuy-removebg-preview.png" class="logo" />
+        <h1 class="logo-title">Fire<span class="logo-heading">Buy</span></h1>
+      </div>
 
-      <nav>
-        <a href="#">The People</a>
-        <a href="#">The Land</a>
-        <a href="#">Language</a>
-        <a href="#">Weather</a>
-        <a href="#">Culture</a>
+      <nav class="nav-container">
+        <div class="nav-links">
+          <a href="#">About</a>
+          <a href="#">Products</a>
+          <a href="#">Solutions</a>
+          <a href="#">Support</a>
+          <a href="#">Resources</a>
+          <a href="#">Store</a>
+        </div>
+
+        <!-- Cart Icon and Sign-in Button -->
+        <div class="sign-in-cart">
+          <i class="fas fa-shopping-cart cart-icon"></i>
+          <button class="sign-in-btn">Sign In</button>
+        </div>
       </nav>
     </header>
 
+    <!-- Main Content Section -->
     <main>
-      <h2 class="Africa">The Continent of Africa</h2>
-      <div class="author-info">
-        <img
-          src="/starter/profile.jpg"
-          alt="Profile image"
-          class="author-image"
-        />
-        <p class="post-info">Posted by John Doe on Saturday, October 5, 2024</p>
+      <h1>Get FireBuy today</h1>
+      <p>Get FireBuy for your team. <a href="#">View all possibilities</a></p>
+
+      <!-- Pricing Cards -->
+      <div class="pricing-cards">
+        <div class="card">
+          <h2>FireBuy Individual</h2>
+          <p class="sub-title">Personal subscription</p>
+          <p class="price">$45.00 <span>/ year</span></p>
+          <p class="billing">Billed yearly</p>
+          <button class="buy-now-btn">Buy Now</button>
+          <ul>
+            <li>No keys needed, just sign in</li>
+            <li>Non-transferable</li>
+            <li>Always up-to-date</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>FireBuy</h2>
+          <p class="sub-title">Perpetual License</p>
+          <p class="price">$69.99 <span>/ year</span></p>
+          <p class="billing">Billed yearly</p>
+          <button class="buy-now-btn">Buy Now</button>
+          <ul>
+            <li>Unlocks with software</li>
+            <li>Transferable</li>
+            <li>One year of Maintenance</li>
+          </ul>
+        </div>
       </div>
-
-      <figure>
-        <img
-          src="/starter/africa.jpg"
-          alt="Giraffes at Kenya"
-          class="africa-image"
-        />
-        <figcaption>
-          Giraffes at Kenya. Source: Jane Doe of The Guardian News
-        </figcaption>
-      </figure>
-
-      <section>
-        <p>
-          The African continent is home to a rich and diverse array of cultures,
-          languages, and traditions. Africa, with its 54 nations, has over 1.4
-          billion people, making it one of the most populous continents in the
-          world. African people have made significant contributions to global
-          culture, science, politics, and art throughout history.
-        </p>
-
-        <h3>Cultural Diversity</h3>
-        <p>
-          Africa is incredibly diverse, with over 3,000 distinct ethnic groups
-          and more than 2,000 languages spoken. Some of the most well-known
-          groups include the Zulu, Maasai, Yoruba, Hausa, Igbo, and Berber, each
-          with its unique traditions, belief systems, and societal structures.
-        </p>
-
-        <h3>History and Heritage</h3>
-        <p>
-          African civilizations have a long and influential history, from the
-          powerful empires of Egypt, Mali, and Great Zimbabwe to the
-          sophisticated trade routes across the Sahara.
-        </p>
-
-        <h3>Top 5 Countries by Population</h3>
-        <p>Africa's top 5 countries by population are:</p>
-        <ul>
-          <li>Nigeria - Approximately 223 million people</li>
-          <li>Ethiopia - Around 126 million people</li>
-          <li>Egypt - About 111 million people</li>
-          <li>
-            Democratic Republic of the Congo (DRC) - Approximately 102 million
-            people
-          </li>
-          <li>Tanzania - Around 67 million people</li>
-        </ul>
-
-        <h3>Indigenous African Languages</h3>
-        <p>
-          Africa is a linguistically diverse continent with over 2,000 languages
-          spoken.
-        </p>
-        <ul>
-          <li>Swahili (Kiswahili) - Spoken by over 100 million people.</li>
-          <li>Hausa - Spoken by around 60 million people.</li>
-          <li>Yoruba - Spoken by about 45 million people.</li>
-          <li>Igbo - Spoken by over 44 million people.</li>
-          <li>Amharic - Spoken by over 32 million people.</li>
-          <li>Oromo - Spoken by over 30 million people.</li>
-        </ul>
-
-        <h3>Influence on Global Culture</h3>
-        <p>
-          African people have had a profound impact on global culture,
-          particularly in music, dance, and art.
-        </p>
-
-        <h3>Modern African Societies</h3>
-        <p>
-          Today, African countries are rapidly modernizing while also preserving
-          their cultural heritage.
-        </p>
-
-        <h3>Challenges and Resilience</h3>
-        <p>
-          African people have faced significant challenges, including poverty
-          and political instability.
-        </p>
-
-        <h3>Related Posts</h3>
-
-        <table>
-          <tr>
-            <td>
-              •
-              <img
-                src="/starter/african-languages.jpg"
-                alt="Languages of African People"
-                class="related-image"
-              /><br />
-              <small>by James Gichinga</small>
-            </td>
-            <td>
-              <a href="#">The Languages of the African People</a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              •
-              <img
-                src="/starter/africa-is-rich.jpg"
-                alt="Rich Continent"
-                class="related-image"
-              /><br />
-              <small>by Emeka Ofodu</small>
-            </td>
-            <td>
-              <a href="#">Why Africa is a Rich Continent</a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              •
-              <img
-                src="/starter/diaspora-africa.jpg"
-                alt="Africans Outside Africa"
-                class="related-image"
-              /><br />
-              <small>by Phillipe Armstrong</small>
-            </td>
-            <td>
-              <a href="#">Africans outside of the African Continent?</a>
-            </td>
-          </tr>
-        </table>
-      </section>
     </main>
 
-    <footer>
-      <p>
-        These populations are estimates as of 2024, and the numbers are
-        continuously changing due to growth rates across the continent. Source:
-        World Bank
-      </p>
-      <p>Copyright © 2024 by Africa Gazette</p>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-icon">
+        <img
+          src="images/cashback.png"
+          alt="technical support icon"
+          class="footer-icon-image"
+        />
+        <span class="footer-icon-text">30-day Money-back Guarantee</span>
+        <!-- Add other icons and text here as needed -->
+      </div>
+      <div class="footer-icon">
+        <img
+          src="images/cross-platform (1).png"
+          alt="technical support icon"
+          class="footer-icon-image"
+        />
+        <span class="footer-icon-text">Mac & Windows Compatibility</span>
+        <!-- Add other icons and text here as needed -->
+      </div>
+      <div class="footer-icon">
+        <img
+          src="images/quality.png"
+          alt="technical support icon"
+          class="footer-icon-image"
+        />
+        <span class="footer-icon-text">FireBuy Certification</span>
+        <!-- Add other icons and text here as needed -->
+      </div>
+      <div class="footer-icon">
+        <img
+          src="images/customer-support.png"
+          alt="technical support icon"
+          class="footer-icon-image"
+        />
+        <span class="footer-icon-text">24/7 technical support</span>
+        <!-- Add other icons and text here as needed -->
+      </div>
     </footer>
   </body>
 </html>

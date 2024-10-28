@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================================
+     GLOBAL STYLES
+  ================================ */
+body {
+  font-family: "Montserrat", serif;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+a {
+  color: #ff66b3; /* Link color */
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* ================================
+     HEADER STYLING
+  ================================ */
+header {
+  display: flex;
+  justify-content: space-between; /* Space between logo & nav */
+  align-items: center; /* Vertical alignment */
+  padding: 10px 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Full width navigation */
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex: 1; /* Take remaining space */
+  gap: 50px; /* Spacing between nav links */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a {
+  color: #333;
+}
+
+/* ================================
+     LOGO STYLING
+  ================================ */
+.logo {
+  width: 50px;
+  height: auto;
+  margin-right: 2px;
+  color: black;
+}
+
+.logo-title {
+  width: 20px;
+  height: 20px;
+  font-weight: 850;
+  font-size: 1.5em;
+}
+
+.logo-heading {
+  color: #ff6600;
+}
+
+/* ================================
+     SIGN-IN BUTTON & CART ICON
+  ================================ */
+.sign-in-cart {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between button & cart */
+}
+
+.sign-in-btn {
+  background-color: #ff66b3;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sign-in-btn:hover {
+  background-color: #e055a0;
+}
+
+.cart-icon {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* ================================
+     MAIN CONTENT & TYPOGRAPHY
+  ================================ */
+main {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* ================================
+     PRICING CARDS
+  ================================ */
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 400px; /* Consistent card width */
+  border-radius: 8px;
+  text-align: left;
+  position: relative; /* Contain elements inside */
+  overflow: hidden; /* Prevent overflow */
+  box-sizing: border-box; /* Include padding in width */
+}
+
+.card h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.sub-title {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 28px;
+  color: #333;
+}
+
+.price span {
+  font-size: 16px;
+  color: #666;
+}
+
+.billing {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* ================================
+     BUY NOW BUTTON
+  ================================ */
+.buy-now-btn {
+  background-color: #ff66b3;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 7px; /* Control padding */
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%; /* Button fills card width */
+  max-width: 362px; /* Prevent excessive width */
+  margin: 15px auto; /* Center button */
+  display: block;
+  text-align: center;
+  box-sizing: border-box; /* Include padding in width */
+  transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.buy-now-btn:hover {
+  background-color: #e055a0; /* Darker pink on hover */
+  transform: scale(1.05); /* Subtle zoom effect */
+}
+
+/* ================================
+     FOOTER STYLING
+  ================================ */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.footer-icon-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 60px;
+  width: 24px !important;
+  height: 24px !important;
+  max-width: 100% !important;
+}
+
+.footer-icon-text {
+  margin-top: 5px;
+  font-size: 14px;
+}
